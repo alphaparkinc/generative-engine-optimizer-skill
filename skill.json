@@ -1,0 +1,40 @@
+{
+  "name": "generative-engine-optimizer-skill",
+  "version": "1.0.0",
+  "description": "Optimize product catalog details and pages for better brand recommendations inside AI search engines (Generative Engine Optimization).",
+  "author": "alphaparkinc",
+  "category": "marketing",
+  "tags": [
+    "geo",
+    "aeo",
+    "seo",
+    "ai-search",
+    "marketing"
+  ],
+  "inputs": {
+    "product_name": {
+      "type": "string",
+      "description": "Name of the product."
+    },
+    "current_description": {
+      "type": "string",
+      "description": "Existing descriptions/meta data."
+    },
+    "target_questions": {
+      "type": "array",
+      "description": "Top queries users ask AI about this product type."
+    }
+  },
+  "outputs": {
+    "optimized_copy": {
+      "type": "string",
+      "description": "GEO optimized description formatted for LLM citation algorithms."
+    },
+    "citation_hints": {
+      "type": "array",
+      "description": "Structural suggestions to maximize citation likelihood."
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
