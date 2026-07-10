@@ -1,8 +1,8 @@
 {
   "name": "generative-engine-optimizer-skill",
   "version": "1.0.0",
-  "description": "Optimize product catalog details and pages for better brand recommendations inside AI search engines (Generative Engine Optimization).",
-  "author": "alphaparkinc",
+  "description": "GenPark AI Agent Skill - Optimize product catalog details and pages for better brand recommendations inside AI search engines (Generative Engine Optimization).",
+  "author": "genpark",
   "category": "marketing",
   "tags": [
     "geo",
