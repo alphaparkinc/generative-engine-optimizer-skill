@@ -1,4 +1,4 @@
-# generative-engine-optimizer-skill
+# genpark-generative-engine-optimizer-skill
 
 > **GenPark AI Agent Skill** -- Generative Engine / LLM Search Optimizer.
 
